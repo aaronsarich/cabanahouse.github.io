@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+    background-color: #000000;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+div 
+{
+	color: #00fe00
+	
+	
+}
+
+img 
+{
+    border:none;
+    outline:none
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+.outer 
+{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle 
+{
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+
+.inner 
+{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 272;
+}
